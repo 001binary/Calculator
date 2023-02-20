@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+    .lng1{
+        width: 250px;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        background-color: #fafafa;
+    }
+    body{
+        background-color: aquamarine;
+    }
+
+</style>
+<body>
+    <form name="frmobj" id="frmobj" method="POST" action="studentinfo.php">
+        <table border="1">
+            <tr>
+                <td>STUDENTS' INFORMATION SYSTEM</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Matric Number:</td>
+                <td> <input type="text" name ="matricno" id= "matricno"></td>
+            </tr>
+            <tr>
+                <td>Full Name</td>
+                <td> <input type="text" name ="fullname" id= "fullname"></td>
+            </tr>
+            
+            <td> Gender/Sex</td>
+            <td>
+                <select name="sex">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </td>
+            <tr>
+                <td> School</td>
+                <td> <input type="text" name="school" id="school" class="lng1"></td>
+            </tr>
+            <td colspan="2"> <center> <button type="submit">Submit</button> </center>
+            </td>
+            
+        </table>
+    </form>    
+
+
+
+</body>
+
+
+
+
+</html>
