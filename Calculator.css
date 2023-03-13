@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+html, body #fullheight {
+    min-height: 100% !important;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    height: 100%;
+    background-color: black;
+}
+@media (min-width: 1000px){
+
+   .result {
+       display: flex;
+       justify-content: flex-end;
+       align-items: flex-end;
+       color: white;
+       height: 32%;
+       flex-direction: column;
+   }
+   .result span {
+       margin-right: 60px;
+       font-size: 210px;
+       justify-self: flex-end;
+       display: block;
+   }
+   
+   .buttons {
+       width: 100%;
+       background-color: black;
+       display: grid;
+       grid-template-columns: 25% 25% 25% 25%;
+       gap: 0;
+   
+   }
+   
+    .item {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 50px;
+       color: white;
+       border-radius: 50%;
+       width: 200px;
+       height: 200px;
+       margin: 10px;
+       cursor: pointer;
+       align-self: center;
+       justify-self: center;
+   
+    }
+}
+@media (max-width: 1000px){
+   body{
+      overflow: hidden;
+   }
+
+   .result {
+       display: flex;
+       justify-content: flex-end;
+       align-items: flex-end;
+       color: white;
+       height: 32%;
+       flex-direction: column;
+   }
+   .result span {
+       margin-right: 60px;
+       font-size: 110px;
+       justify-self: flex-end;
+       display: block;
+   }
+   
+   .buttons {
+       width: 100%;
+       margin: auto;
+       background-color: black;
+       display: grid;
+       grid-template-columns: 25% 25% 25% 25%;
+       gap: 0;
+   
+   }
+   
+    .item {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 36px;
+       color: white;
+       border-radius: 50%;
+       width: 120px;
+       height: 120px;
+       margin: 10px;
+       cursor: pointer;
+       align-self: center;
+       justify-self: center;
+   
+    }
+}
+
+ .percent {
+    background-color: #A5A5A5;
+    border: none;
+    color: black;
+ }
+ .item1 {
+    background-color: #A5A5A5;
+    border: none;
+ }
+ .item3 {
+    background-color: #ff9f0a; 
+    border: none;
+ }
+ .numbers, .comma, .point {
+    background-color: #343434; 
+    border: none;
+ }
+ 
+ .negative, .clear {
+    color: black;
+
+ }
+ .itemzero {
+    background-color: #343434;
+    
+    border-radius: 135%;
+    
+    border: none;
+ }
+
+ 
